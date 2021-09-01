@@ -1,0 +1,64 @@
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgb(206, 207, 121);  
+}  
+    
+button {   
+       background-color: #6b913d;   
+       width: 30%;  
+        color: orange;   
+        padding: 5px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+     
+ input[type=text], input[type=password] {   
+        width: 50%;   
+        margin: 3px 3px;  
+        padding: 5px 5px;   
+        display: inline-block;   
+        border: 2px solid rgb(23, 26, 23); 
+        border-radius: 12px;  
+        /* box-sizing: border-box;    */
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        /* padding: 10px 18px;   */
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        width:30%;
+        border-radius: 8px;
+    }   
+    form#bla {
+      /* width: 1000px;
+      height: 500px; */
+      overflow:auto;
+      /* border: 15px solid green; */
+      /* padding: 50px; */
+      /* margin: 20px; */
+      margin: 20px 424px;
+    }
+    #header-nav {
+      background-color: #19f675;
+      border-radius: 0;
+      height: 80px;
+      border: 0;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size:2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
